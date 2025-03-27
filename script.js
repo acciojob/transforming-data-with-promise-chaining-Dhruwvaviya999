@@ -24,7 +24,7 @@ document.querySelector("#btn").addEventListener("click", (e)=>{
 		return promise5();
 	}).then(()=>{
 		inputValue += 10;
-		outputDiv.textContent = `Result: ${inputValue}`;
+		outputDiv.textContent = `Final Result: ${inputValue}`;
 	});
 })
 
